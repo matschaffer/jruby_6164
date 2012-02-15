@@ -7,7 +7,7 @@ cd -
 
 jgem install jruby-openssl
 jgem install rails
-jgem uninstall thin -a -x
+jgem uninstall thin -a -x -I
 jgem install thin
 
 brew install siege
